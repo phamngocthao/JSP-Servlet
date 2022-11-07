@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 0rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #377cb8;
+}
+
+a i{
+    margin-right: 0.5vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left div.item{
+    height: 6vh;
+    padding-left: 2vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left div.item-sub{
+    height: 6vh;
+    padding-left: 4vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
